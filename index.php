@@ -2,13 +2,12 @@
 
 # Redirect packages
 $distributions = array(
-	'cms62' => 'cms62',
-	'cms70' => 'cms70',
-	'introduction' => 'cms62',
-	'neos' => 'neos',
+	'cms62' => 'cms62.demo.typo3.org',
+	'cms70' => 'cms70.demo.typo3.org',
+	'neos' => 'neos-master.demo.typo3.org',
 );
 
-foreach ($distributions as $domainPart => $distribution) {
+foreach ($distributions as $distribution => $domain) {
 	if (strpos($_SERVER['REQUEST_URI'], '/' . $distribution) === 0) {
 		$segment = ltrim($_SERVER['REQUEST_URI'], '/');
 		$parts = explode('/', $segment);
@@ -16,7 +15,7 @@ foreach ($distributions as $domainPart => $distribution) {
 		$path = implode('/', $parts);
 		$path = ltrim($path, '/');
 
-		$location = sprintf('http://%s.demo.typo3.org/%s', $domainPart, $path);
+		$location = sprintf('http://%s/%s', $domain, $path);
 		header('Location: ' . $location);
 		die();
 	}

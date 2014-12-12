@@ -25,7 +25,7 @@ TYPO3 CMS LTS (6.2) - Introduction distribution
 -----------------------------------------------
 
 <p class="left">
-	<a href="http://demo.typo3.org/introduction" title="Head to this demo">
+	<a href="http://demo.typo3.org/cms62" title="Head to this demo">
 		<img src="files/cms62.png" class="img-left" alt="" width="300">
 	</a>
 </p>
@@ -59,9 +59,8 @@ open the browser and go to the installation wizard. Notice also, experimented us
 TYPO3 CMS (7.x)
 ---------------
 
-
 <p class="left">
-	<a href="http://demo.typo3.org/introduction" title="Head to this demo">
+	<a href="http://demo.typo3.org/cms70/typo3" title="Head to this demo">
 		<img src="files/cms70.png" class="img-left" alt="" >
 	</a>
 </p>
