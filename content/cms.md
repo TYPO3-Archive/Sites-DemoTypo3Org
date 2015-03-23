@@ -8,30 +8,29 @@
 	<li>Demo Distribution</li>
 </ul>
 
-Available Demos
+TYPO3 CMS Demos
 ===============
 
-This is the landing page of all TYPO3 packages. Be welcome and make your choice between the different flavor.
-There is here the opportunity to make an idea of the capability of TYPO3 products.
-All packages have an login with different access level. Log in as admin in the Backend
+Each distrubtions have a login with different access level. Log in as admin in the Backend
 for in depth exploration or as an Editor to see an optimized User Interface
-addressing "basic" User. **Not all features are enabled such as file upload,
-third-party extension installation, etc... for obvious security reasons.**
+targegint "basic" User. Experiment as much as you like but please let the system still usable
+for the next visitor.
+Notice that **not all features are enabled** such as file upload or
+third-party extension installation for  security reasons.
+Next reset will happen in <strong id="javascript_countdown_time"></strong>.
 
-Experiment as much as you like but please let the system still usable
-for the next visitor. Next reset will happen in <strong id="javascript_countdown_time"></strong>.
 
 TYPO3 CMS LTS (6.2) - Introduction distribution
 -----------------------------------------------
 
 <p class="left">
-	<a href="http://demo.typo3.org/cms62" title="Head to this demo">
+	<a href="http://demo.typo3.org/cms62" title="Head to the demo">
 		<img src="files/cms62.png" class="img-left" alt="" width="300">
 	</a>
 </p>
 
 <p>
-	Demo:
+	Frontend:
 	<br/>
 	<a href="http://demo.typo3.org/cms62" target="_blank">http://demo.typo3.org/cms62</a>
 </p>
@@ -44,9 +43,9 @@ TYPO3 CMS LTS (6.2) - Introduction distribution
 	Use <strong>"admin"</strong> and <strong>"password"</strong> as credentials
 </p>
 
-This is an example of a typical TYPO3 installation that bundles an XHTML template,
+This is an example of a typical TYPO3 installation that bundles an HTML5 template,
 the TYPO3 source and some well-known extensions. Download this if you want to try out
-TYPO3 and play around with it, or just to get a basic site with a predefined template up
+TYPO3 and play around or just to get a basic site with a predefined template up
 and running. **To install, you need a webserver on your local machine or a hosted webserver**.
 Unzip the package, create a Virtual Host pointing at the root of the directory,
 open the browser and go to the installation wizard. Notice also, experimented users can install TYPO3 CMS LTS by [Composer][cp].
@@ -60,25 +59,44 @@ TYPO3 CMS (7.x)
 ---------------
 
 <p class="left">
-	<a href="http://demo.typo3.org/cms70/typo3" title="Head to this demo">
-		<img src="files/cms70.png" class="img-left" alt="" >
+	<a href="http://demo.typo3.org/cms-next" title="Head to the demo">
+		<img src="files/cms70.png" class="img-left" alt="" width="300">
 	</a>
 </p>
 
 <p>
-	No Frontend yet, only a backend login:
+	Frontend:
+	<br />
+	<a href="http://demo.typo3.org/cms-next" target="_blank">http://demo.typo3.org/cms-next</a>
+</p>
+
+<p>
+	Backend login:
 	<br/>
-	<a href="http://demo.typo3.org/cms70/typo3" target="_blank">http://demo.typo3.org/cms70/typo3</a>
+	<a href="http://demo.typo3.org/cms-next/typo3" target="_blank">http://demo.typo3.org/cms-next/typo3</a>
 	<br/>
 	Use <strong>"admin"</strong> and <strong>"password"</strong> as credentials
 </p>
 
-This is our next CMS version which is in preparation. Check the [roadmap](http://typo3.org/typo3-cms/roadmap/) to
+This is our next CMS version in preparation. Check the [roadmap](http://typo3.org/typo3-cms/roadmap/) to
 know more about the schedule. Huge parts of the backend will be rebuilt from the ground up using Twitter Bootstrap.
 Doing so will enable us to implement a lot of usability improvements.
-To install this version grab a fresh copy from the [download page](http://typo3.org/download).
-Experimented users can install TYPO3 CMS 7.x by [Composer][cp].
+To install this version grab a fresh copy from the [download page](http://typo3.org/download) or install it by [Composer][cp].
 
+<p class="clear"></p>
+
+
+----
+
+
+TYPO3 CMS master
+----------------
+<p>
+	A fresh copy day of TYPO3 CMS is being backed every day. You can access the Backend at:
+	<br/>
+	<a href="http://demo.typo3.org/cms-master/typo3" target="_blank">http://demo.typo3.org/cms-master/typo3</a>
+	Use <strong>"admin"</strong> and <strong>"password"</strong> as credentials
+</p>
 
 <p class="clear"></p>
 
@@ -87,8 +105,6 @@ Forge project
 -------------
 
 There is a [Forge project][fp] where issues and wishes can be [reported][bt].
-For instance, if you would like to have your own distribution listed here showing
-special features of a TYPO3 product, don't hesitate to create a ticket.
 
 
 	[cp]: http://composer.typo3.org/

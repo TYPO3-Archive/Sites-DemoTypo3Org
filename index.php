@@ -4,7 +4,8 @@
 $distributions = array(
 	'cms62' => 'cms62.demo.typo3.org',
 	'cms70' => 'cms70.demo.typo3.org',
-	'neos' => 'neos-master.demo.typo3.org',
+	'cms-next' => 'cms-next.demo.typo3.org',
+	'cms-master' => 'cms-master.demo.typo3.org',
 );
 
 foreach ($distributions as $distribution => $domain) {
@@ -27,8 +28,15 @@ require 'Packages/Libraries/autoload.php';
 $template = 'Resources/template.html';
 $output = file_get_contents($template);
 
-$contentFile = 'index.md';
-$contentRaw = file_get_contents($contentFile);
+if (strpos($_SERVER['REQUEST_URI'], '/neos') === 0) {
+	$contentFile = 'neos.md';
+} elseif (strpos($_SERVER['REQUEST_URI'], '/cms') === 0) {
+	$contentFile = 'cms.md';
+} else {
+	$contentFile = 'index.md';
+}
+
+$contentRaw = file_get_contents('content/' . $contentFile);
 
 $parser = new Parsedown();
 $content = $parser->text($contentRaw);
