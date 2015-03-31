@@ -49,7 +49,7 @@ Neos master
 -----------
 <p>
 	A fresh copy day of Neos is being backed every day at
-	<a href="http://demo.typo3.org/neos-master" target="_blank">http://demo.typo3.org/neos-master</a>.
+	<a href="http://neos-master.demo.typo3.org" target="_blank">http://neos-master.demo.typo3.org</a>.
 </p>
 
 <p class="clear"></p>
