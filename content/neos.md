@@ -48,8 +48,8 @@ You can either download a ZIP archive or install through Composer, more informat
 Neos master
 -----------
 <p>
-	A fresh copy day of Neos is being backed every day at
-	<a href="http://neos-master.demo.typo3.org" target="_blank">http://neos-master.demo.typo3.org</a>.
+	A fresh copy of Neos is being backed every day at
+	<a href="http://neos-master.demo.typo3.org" target="_blank">http://neos-master.demo.typo3.org</a>. You can create yourself an account on <a href="http://neos-master.demo.typo3.org/en/try-me.html">this page</a> and enter the editing experience of Neos.
 </p>
 
 <p class="clear"></p>
