@@ -72,7 +72,7 @@ TYPO3 CMS (7.x)
 
 <p>
 	Frontend:
-	<a href="http://demo.typo3.org/cms-next">http://demo.typo3.org/cms-next</a>
+	<a href="http://demo.typo3.org/cms-next" target="_blank">http://demo.typo3.org/cms-next</a>
 </p>
 
 <p>
@@ -88,7 +88,7 @@ Doing so will enable us to implement a lot of usability improvements.
 To install this version grab a fresh copy from the [download page](http://typo3.org/download) or install it by [Composer][cp].
 
 Also, you can launch your own demo on
-<a href="https://launchr.com/typo3-cms" style="padding-left: 5px"><img src="files/launchr.png" width="80" alt=""/></a>
+<a href="https://launchr.com/typo3-cms" target="_blank" style="padding-left: 5px"><img src="files/launchr.png" width="80" alt=""/></a>
 
 <p class="clear"></p>
 
