@@ -36,13 +36,11 @@ TYPO3 CMS LTS (6.2) - Introduction distribution
 
 <p>
 	Frontend:
-	<br/>
 	<a href="http://demo.typo3.org/cms62" target="_blank">http://demo.typo3.org/cms62</a>
 </p>
 
 <p>
 	Backend login:
-	<br/>
 	<a href="http://demo.typo3.org/cms62/typo3" target="_blank">http://demo.typo3.org/cms62/typo3</a>
 	<br/>
 	Use <strong>"admin"</strong> and <strong>"password"</strong> as credentials
@@ -53,7 +51,10 @@ the TYPO3 source and some well-known extensions. Download this if you want to tr
 TYPO3 and play around or just to get a basic site with a predefined template up
 and running. **To install, you need a webserver on your local machine or a hosted webserver**.
 Unzip the package, create a Virtual Host pointing at the root of the directory,
-open the browser and go to the installation wizard. Notice also, experimented users can install TYPO3 CMS LTS by [Composer][cp].
+open the browser and go to the installation wizard. TYPO3 CMS can be installed via [Composer][cp] as well.
+
+Also, you can launch your own demo on
+<a href="https://launchr.com/typo3/6.2" target="_blank" style="padding-left: 5px"><img src="files/launchr.png" width="80" alt=""/></a>
 
 <p class="clear"></p>
 
@@ -71,13 +72,11 @@ TYPO3 CMS (7.x)
 
 <p>
 	Frontend:
-	<br />
-	<a href="http://demo.typo3.org/cms-next" target="_blank">http://demo.typo3.org/cms-next</a>
+	<a href="http://demo.typo3.org/cms-next">http://demo.typo3.org/cms-next</a>
 </p>
 
 <p>
 	Backend login:
-	<br/>
 	<a href="http://demo.typo3.org/cms-next/typo3" target="_blank">http://demo.typo3.org/cms-next/typo3</a>
 	<br/>
 	Use <strong>"admin"</strong> and <strong>"password"</strong> as credentials
@@ -87,6 +86,9 @@ This is our next CMS version in preparation. Check the [roadmap](http://typo3.or
 know more about the schedule. Huge parts of the backend will be rebuilt from the ground up using Twitter Bootstrap.
 Doing so will enable us to implement a lot of usability improvements.
 To install this version grab a fresh copy from the [download page](http://typo3.org/download) or install it by [Composer][cp].
+
+Also, you can launch your own demo on
+<a href="https://launchr.com/typo3-cms" style="padding-left: 5px"><img src="files/launchr.png" width="80" alt=""/></a>
 
 <p class="clear"></p>
 
