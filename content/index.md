@@ -11,7 +11,7 @@
 TYPO3 CMS Demos
 ===============
 
-TYPO3 Enterprise CMS is the adequate product for websites from small organizations site to large multilingual corporations,
+TYPO3 Enterprise CMS is the suitable product for websites from small organizations site to large multilingual corporations,
 thanks to its large <a href="http://typo3.org/typo3-cms/key-features/">feature set</a>, scalability and maturity.
 Here is here the opportunity to make an idea of the capability of the TYPO3 products family.
 
